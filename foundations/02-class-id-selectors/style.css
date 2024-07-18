@@ -1,0 +1,17 @@
+.same {
+    background-color: lightpink;
+    font-size: 24px;
+}
+#tow {
+    font-size: 38px;
+    color: blue;
+}
+.one{
+    background-color: lightpink;
+    font-size: 38px;
+}
+#four {
+    font-size: 38px;
+    background-color: lightgreen; 
+    font-weight: bold;
+}
