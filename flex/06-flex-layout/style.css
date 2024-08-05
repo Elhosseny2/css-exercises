@@ -5,10 +5,15 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
   width: 600px;
+  display: flex;
+  margin: auto;
+  align-items: center;
 }
 
 button {
@@ -16,6 +21,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 5px;
 }
 
 input {
@@ -23,4 +29,73 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  display: flex;
+  margin: auto;
 }
+ul {
+  list-style-type: none;
+  color: #ddd;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding:0;
+  margin-left: 0;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap:10px;
+  padding: 15px;
+  align-items: center;
+}
+.left-links{
+  display: flex;
+  gap:10px;
+  justify-content: flex-start;
+  margin-right: auto;
+}
+.right-links{
+  display: flex;
+  gap:10px;
+  margin-right: 10px;
+}
+a {
+  color:gray;
+  text-decoration: none;
+  font-size: 10px;
+}
+.down {
+  display: flex;
+  align-items: flex-end;
+  flex: 1 0 auto;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  flex: 1 1 auto;
+}
+.about{
+  display: flex;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+/* ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px
+}
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+} */
+ /* after i finish i looked at the solution, seems i did it the hard and bit wrong way,
+ which make tasks getting harder. i wish i can improve this further.
+So far my logical thinking is miserable and getting worser! */
